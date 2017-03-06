@@ -3,6 +3,9 @@ header {
 	height: 70px;
 	padding-top: 10px;
 	background-color: white;
+	position: fixed;
+	top: 0px;
+	left: 0px;
 }
 
 .logo {
@@ -14,20 +17,27 @@ header {
 	display: inline;
 }
 
+main {
+	margin-top: 70px;
+}
+
 section {
 	display: flex;
 	justify-content: space-around;
 	align-content: center;
 	width: 100%;
-	height: 200px;
 	background-color: blue;
 	border: 2px solid white;
+}
+
+section:nth-child(2n) {
+	background-color: white;
 }
 
 section div {
 	display: inline-block;
 	width: 25%;
-	margin-top: 45px;
+	margin: 45px 0px;
 	background-color: purple;
 	border: 2px solid orange;
 }
@@ -38,26 +48,7 @@ section div {
 	margin: 0 auto;
 }
 
-section {
-	display: flex;
-	justify-content: space-around;
-	align-content: center;
-	width: 100%;
-	height: 200px;
-	background-color: blue;
-	border: 2px solid white;
-}
 
-section div {
-	display: inline-block;
-	width: 25%;
-	margin-top: 45px;
-	background-color: purple;
-	border: 2px solid orange;
-}
 
-.services2 img {
-	display: block;
-	max-height: 100px;
-	margin: 0 auto;
-}
+
+
