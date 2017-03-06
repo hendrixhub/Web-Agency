@@ -1,6 +1,6 @@
 README.md
 
-H1 Spring Forward Design
+H1 Spring Forward Design by John Hendrix
 
 H2 A web portfolio project created for Code Louisville
 
