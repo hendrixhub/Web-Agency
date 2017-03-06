@@ -1,0 +1,63 @@
+header {
+	width: 100%;
+	height: 70px;
+	padding-top: 10px;
+	background-color: white;
+}
+
+.logo {
+}
+
+.nav {
+	text-align: right;
+	color: orange;
+	display: inline;
+}
+
+section {
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+	width: 100%;
+	height: 200px;
+	background-color: blue;
+	border: 2px solid white;
+}
+
+section div {
+	display: inline-block;
+	width: 25%;
+	margin-top: 45px;
+	background-color: purple;
+	border: 2px solid orange;
+}
+
+.services img {
+	display: block;
+	max-height: 100px;
+	margin: 0 auto;
+}
+
+section {
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+	width: 100%;
+	height: 200px;
+	background-color: blue;
+	border: 2px solid white;
+}
+
+section div {
+	display: inline-block;
+	width: 25%;
+	margin-top: 45px;
+	background-color: purple;
+	border: 2px solid orange;
+}
+
+.services2 img {
+	display: block;
+	max-height: 100px;
+	margin: 0 auto;
+}
