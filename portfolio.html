@@ -5,8 +5,6 @@
 	<title>Spring Forward Design</title>
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" href="css/main.css">
-	<script src="https://use.fontawesome.com/cbd5847b50.js">
-	</script>
 </head>
 
 <body>
@@ -17,66 +15,63 @@
 	<div class="nav">
 		<ul>
 			<li><a href="index.html">Home</a></li>
-			<li><a href="portfolio.html">Portfolio</a></li>
-			<li><a href="#">About</a></li>
-			<li><a href="#">Contact</a></li>
+			<li><a class="selected" href="portfolio.html">Portfolio</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="contact.html">Contact</a></li>
 		</ul>
 	</div>
 </header>
 
 <main>
-	<section class="hero">
-		<div class="column-hero-1">
-			<h2>Spring Forward Design</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin placerat id quam semper rutrum. Vestibulum ac semper mauris, sit amet fringilla elit. Curabitur ornare libero risus, eu feugiat elit fringilla non. Etiam pretium diam quam, sed imperdiet nisl malesuada vel.</p>
-		</div>
-		<div class="column-hero-2">
-			<img src="images/monitor-149362_1280.png" alt="iMac">
-		</div>
-
-	</section>
-	<section class="services">
-		<div class="column-design">
-			<i class="fa fa-align-center fa-paint-brush fa-5x"></i>
-			<h2 class="services-title">Design</h2>
-			<p class="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin placerat id quam semper rutrum. Vestibulum ac semper mauris, sit amet fringilla elit. Curabitur ornare libero risus, eu feugiat elit fringilla non. Etiam pretium diam quam, sed imperdiet nisl malesuada vel. Aenean ac faucibus urna. Sed vestibulum purus quis lorem pulvinar, pulvinar efficitur lacus mollis. Phasellus ac nunc sit amet lacus bibendum finibus. Nam dignissim luctus dui et auctor. </p>
-		</div>
-		<div class="column-hosting">
-			<i class="fa fa-align-center fa-cloud fa-5x"></i>
-			<h2 class="services-title">Hosting</h2>
-			<p class="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin placerat id quam semper rutrum. Vestibulum ac semper mauris, sit amet fringilla elit. Curabitur ornare libero risus, eu feugiat elit fringilla non. Etiam pretium diam quam, sed imperdiet nisl malesuada vel. Aenean ac faucibus urna. Sed vestibulum purus quis lorem pulvinar, pulvinar efficitur lacus mollis. Phasellus ac nunc sit amet lacus bibendum finibus. Nam dignissim luctus dui et auctor. </p>
-		</div>
-		<div class="column-wordpress">
-			<i class="fa fa-align-center fa-wordpress fa-5x"></i>
-			<h2 class="services-title">WordPress</h2>
-			<p class="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin placerat id quam semper rutrum. Vestibulum ac semper mauris, sit amet fringilla elit. Curabitur ornare libero risus, eu feugiat elit fringilla non. Etiam pretium diam quam, sed imperdiet nisl malesuada vel. Aenean ac faucibus urna. Sed vestibulum purus quis lorem pulvinar, pulvinar efficitur lacus mollis. Phasellus ac nunc sit amet lacus bibendum finibus. Nam dignissim luctus dui et auctor. </p>
-		</div>
-	</section>
-	<section class="services">
-		<div class="column-design">
-			<i class="fa fa-align-center fa-wrench fa-5x"></i>
-			<h2 class="services-title">Maintenance</h2>
-			<p class="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin placerat id quam semper rutrum. Vestibulum ac semper mauris, sit amet fringilla elit. Curabitur ornare libero risus, eu feugiat elit fringilla non. Etiam pretium diam quam, sed imperdiet nisl malesuada vel. Aenean ac faucibus urna. Sed vestibulum purus quis lorem pulvinar, pulvinar efficitur lacus mollis. Phasellus ac nunc sit amet lacus bibendum finibus. Nam dignissim luctus dui et auctor. </p>
-		</div>
-		<div class="column-hosting">
-			<i class="fa fa-align-center fa-code fa-5x"></i>
-			<h2 class="services-title">HTML & CSS Help</h2>
-			<p class="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin placerat id quam semper rutrum. Vestibulum ac semper mauris, sit amet fringilla elit. Curabitur ornare libero risus, eu feugiat elit fringilla non. Etiam pretium diam quam, sed imperdiet nisl malesuada vel. Aenean ac faucibus urna. Sed vestibulum purus quis lorem pulvinar, pulvinar efficitur lacus mollis. Phasellus ac nunc sit amet lacus bibendum finibus. Nam dignissim luctus dui et auctor. </p>
-		</div>
-		<div class="column-wordpress">
-			<i class="fa fa-align-center fa-user-circle-o fa-5x"></i>
-			<h2 class="services-title">Consultation</h2>
-			<p class="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin placerat id quam semper rutrum. Vestibulum ac semper mauris, sit amet fringilla elit. Curabitur ornare libero risus, eu feugiat elit fringilla non. Etiam pretium diam quam, sed imperdiet nisl malesuada vel. Aenean ac faucibus urna. Sed vestibulum purus quis lorem pulvinar, pulvinar efficitur lacus mollis. Phasellus ac nunc sit amet lacus bibendum finibus. Nam dignissim luctus dui et auctor. </p>
-		</div>
-	</section>
-
-	
+	<div id="wrapper">
+      <section class="portfolio">
+        <ul id="gallery">
+          <li>
+            <a href="images/art-820276_640.jpg">
+              <img src="images/art-820276_640.jpg" alt="Art Tools">
+              <p>Artist tools of the trade.</p>
+            </a>
+          </li>
+          <li>
+            <a href="images/colored-pencils-374771_640.jpg">
+              <img src="images/colored-pencils-374771_640.jpg" alt="Colored Pencils">
+              <p>Colored Pendcils.</p>
+            </a>
+          </li>
+          <li>
+            <a href="images/home-office-336377_640.jpg">
+              <img src="images/home-office-336377_640.jpg" alt="Creative Center">
+              <p>Creative Center.</p>
+            </a>
+          </li>
+          <li>
+            <a href="images/mockup-847643_640.jpg">
+              <img src="images/mockup-847643_640.jpg" alt="Mock up">
+              <p>When creativity strikes.</p>
+            </a>
+          </li>
+    
+          <li>
+            <a href="images/office-820390_640.jpg">
+              <img src="images/office-820390_640.jpg" alt="Office">
+              <p>The office.</p>
+            </a>
+          </li>
+          <li>
+            <a href="images/sketchbook-352260_640.jpg">
+              <img src="images/sketchbook-352260_640.jpg" alt="Sketchbook">
+              <p>The Sketchbook.</p>
+            </a>
+          </li>
+        </ul>
+      </section>
+    </div>  
 </main>
 
 
 <footer>
   <div>
-  	<p class=copyright>Copyright 2017 Spring Forward Design</p>
+  	<p class=copyright>Copyright &copy; 2017 Spring Forward Design</p>
   </div>
 
 </footer>
