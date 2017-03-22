@@ -40,12 +40,12 @@ header {
 	text-decoration: none;
 }
 
-/* Links */
+/***** Links *****/
 a {
   color: #fff;
 }
 
-/***** nav link *****/
+/***** Nav Link *****/
 .nav a.selected, .nav a:hover {
   color: #32673f;
 }
@@ -161,7 +161,8 @@ section .portfolio{
 
 #gallery li {
   float: left;
-  width: 33%;	
+  width: 300px;
+  max-width: 100%;	
   margin: 2.5%;
   background-color: #f5f5f5;
   color: #bdc3c7;
@@ -173,6 +174,22 @@ section .portfolio{
   font-size: 0.75em;
   color: #bdc3c7;
 }
+
+#gallery {
+max-width: 1280px;
+text-align:center;
+}
+
+#gallery img {
+position:relative;
+display: inline-block;
+float:left;
+max-width: 300px;
+padding:10px;
+}
+
+   
+
 
 /***** Contact Form *****/
 
@@ -261,7 +278,7 @@ fieldset {
 #contact textarea {
 	height:100px;
 	max-width:100%;
-  resize:none;
+  	resize:none;
 }
 
 #contact button[type="submit"] {
@@ -330,6 +347,8 @@ footer {
 /***** Media Queries *****/
 
 @media screen and (max-width: 960px) {
+	
+
 	.column-hero-2 {
 		display: none;
 
@@ -348,9 +367,46 @@ footer {
 		margin: 0 auto;
 		padding: 20px 0;
 	}
+
+	.column-form {
+		display: block;
+		max-width:400px;
+		width:100%;
+		margin:0 auto;
+		position:relative;
+	}
+
+
+	.column-contact-info {
+	    width: 175px;
+	    max-width: 100%;
+	    display: block;
+	    margin: 0 auto;
+	    padding-bottom: 100px;
+	}
+
 }
 
 @media screen and (max-width: 620px) {
+	
+	main {
+    margin-top: 0px;
+	}
+
+
+	.logo {
+		width: 300px;
+		margin: 0 auto;
+		max-width: 100%;
+		display: block;
+	}
+
+	.hero {
+		height: 100%;
+		margin: 0 auto;
+		padding-bottom: 75px;
+	}
+
 	.nav {
 		float: none;
 		display: block;
@@ -376,6 +432,18 @@ footer {
 	}
 	h1 {
 		text-align: center;
+		padding-top: 75px;
+	}
+	.column-contact-info {
+    width: 175px;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 100px;
+	}
+
+	.profile-section img{
+		display: none;
 	}
 
 }
