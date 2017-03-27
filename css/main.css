@@ -1,3 +1,18 @@
+/***** Body *****/
+
+body {
+	font-family:"Open Sans", Helvetica, Arial, sans-serif;
+	font-weight:300;
+	font-size: 12px;
+	line-height:30px;
+	color:#777;
+	background:#f2f2f2;
+}
+
+img {
+	max-width: 100%;
+}
+
 /***** Header *****/
 header {
 	width: 100%;
@@ -83,6 +98,10 @@ h1 {
 	padding: 10px 0px;
 }
 
+.column-hero-1 p {
+	margin-bottom: 20px;
+}
+
 .column-hero-2 {
 	position: relative;
 	width: 52%;
@@ -105,9 +124,11 @@ section {
 
 section div {
 	display: inline-block;
-	width: 25%;
+	width: 40%;
 	margin: 45px 0px;
 	background-color: #739042;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 .services img {
@@ -287,14 +308,14 @@ PAGE: FAQ
 	text-rendering:optimizeLegibility;
 }
 
-body {
+/* body {
 	font-family:"Open Sans", Helvetica, Arial, sans-serif;
 	font-weight:300;
 	font-size: 12px;
 	line-height:30px;
 	color:#777;
 	background:#f2f2f2;
-}
+} */
 
 .column-form {
 	display: inline-block;
@@ -464,9 +485,13 @@ footer {
 	    padding-bottom: 100px;
 	}
 
+	h1 {
+		text-align: center;
+	}
+
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 680px) {
 	
 	main {
     margin-top: 0px;
