@@ -17,7 +17,7 @@ Clone or download and run index.html.
 
 ## Usage
 
-Click on [www.SpringForwardDesign.com] (http://www.springforwarddesign.com)  to view the live hosted site.
+Click on http://www.springforwarddesign.com to view the live hosted site.
 
 Or, open the index.html file in a web browser to view site
 
