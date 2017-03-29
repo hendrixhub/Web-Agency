@@ -1,3 +1,7 @@
+/*
+JavaScript-JQuery Accordion Animation Script for FAQ Page
+*/
+
 $(document).ready(function(){
 
 	$(".accordion h3:first").addClass("active");
