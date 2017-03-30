@@ -75,6 +75,7 @@ main {
 h1 {
 	font-size: 250%;
 	margin-bottom: 50px;
+	line-height: 1.2;
 }
 
 .hero {
@@ -232,7 +233,7 @@ PAGE: ABOUT
 	display: inline;
 }
 
-.about-social-ul li {
+.about-social-ul a {
 	display: inline-block;
 	vertical-align: text-bottom;
     margin-left: 10px;
@@ -349,8 +350,19 @@ PAGE: FAQ
 }
 
 .column-contact-info {
-	display: inline-block;
+	display: block;
 	margin-top: 75px;
+}
+
+.contact-info li {
+	display: inline-block;
+	vertical-align: text-bottom;
+    margin-left: 0px;
+}
+
+h3 {
+	font-size: 2em;
+    margin-bottom: 15px;
 }
 
 #contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
@@ -441,16 +453,7 @@ fieldset {
  color:#888;
 }
 
-.contact-info li {
-	display: inline-block;
-	vertical-align: text-bottom;
-    margin-left: 10px;
-}
 
-h3 {
-	font-size: 2em;
-    margin-bottom: 15px;
-}
 
 
 /***** Footer *****/
@@ -487,6 +490,11 @@ h3 {
 		padding: 20px 0;
 	}
 
+	.section-accordian {
+		display: flex;
+		
+	}
+
 	.column-form {
 		display: block;
 		max-width:400px;
@@ -497,7 +505,7 @@ h3 {
 
 
 	.column-contact-info {
-	    width: 175px;
+	    width: 250px;
 	    max-width: 100%;
 	    display: block;
 	    margin: 0 auto;
@@ -510,7 +518,7 @@ h3 {
 
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 730px) {
 	
 	main {
     margin-top: 0px;
@@ -558,7 +566,7 @@ h3 {
 		padding-top: 75px;
 	}
 	.column-contact-info {
-    width: 175px;
+    width: 250px;
     max-width: 100%;
     display: block;
     margin: 0 auto;
