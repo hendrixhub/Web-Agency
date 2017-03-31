@@ -79,7 +79,7 @@ h1 {
 }
 
 .hero {
-	height: calc(100VH - 70px);
+	height: 100%;
 	background-color: #f2f2f2;
 }
 
@@ -91,7 +91,7 @@ h1 {
 	width: 46%;
 	background-color: #f2f2f2;
 	color: #739042;
-	padding: 100px 30px 0px 100px;
+	padding: 45px 30px 0px 100px;
 }
 
 .column-hero-1 h2 {
@@ -110,8 +110,8 @@ h1 {
 }
 
 .column-hero-2 img{
-	max-height: 100%;
-	max-width: 100%;
+	max-height: 90%;
+	max-width: 90%;
 }
 
 section {
